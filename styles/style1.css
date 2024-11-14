@@ -1,0 +1,85 @@
+h1 {
+	color: #f1fa8c; 
+	font-size: 100px;
+	text-align: center;
+	letter-spacing: 25px;
+	font-style: italic;
+	transition: color .25s, letter-spacing .25s;
+}
+
+h1:hover{
+	color: #A88F42;
+	letter-spacing: 35px;
+	font-style: bold;
+}
+
+h2, h3{
+	color: #bd93f9; 
+	text-align: center;
+	transition: color .25s, letter-spacing .25s;
+}
+
+a {
+	color: #8be9fd;
+	transition: color .25s, letter-spacing .25s;
+}
+
+a:hover {
+	color: #44475a;
+	letter-spacing: 1px;
+}
+
+h2:hover, h3:hover {
+	color: #593F62;
+	letter-spacing: 3px;
+}
+
+html {
+	color: #6272a4;
+	font-size: 25px;
+	font-family: "Bebas Neue";
+    line-height: 50px;
+	background-color: #282a36;
+}
+
+.bimg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	border-radius: 2%;
+	transition: transform .25s;
+}
+
+.bimg:hover {
+	transform: scale(1.05);
+}
+
+.simg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10%;
+	border-radius: 2%;
+	filter: invert(0);
+	transition: transform .25s, filter .25s;
+}
+
+.simg:hover {
+	transform: scale(1.05);
+	filter: invert(1)
+}
+
+p, ul {
+	font-weight: 1px;
+	margin-left: 175px;
+	margin-right: 175px;
+}
+
+dl, dd {
+  font-size: 0.9rem;
+}
+
+dd {
+  margin-bottom: 1em;
+}
